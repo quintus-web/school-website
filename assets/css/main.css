@@ -1,0 +1,126 @@
+body {
+  background-color: darkslategrey;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+  .navbar {
+ display: flex;
+  justify-content: center;     /* centers all items */
+  align-items: center;         /* aligns them vertically */
+  gap: 20px;                   /* space between links */
+  padding: 20px;
+  list-style: none;            /* removes bullets */
+  margin: 0;
+
+}
+
+.navbar li a {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.navbar li a:hover {
+  background: white;
+}
+h1 {
+  color: white;
+  margin-top: 10px;
+}
+.centre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* takes most of screen */
+  text-align: center;
+  line-height: 1.4;
+    gap: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.centre h2 {
+    display: flex;
+  font-size: 24px;
+  margin-bottom: 10px;
+    font-size: small;
+}
+
+.centre p {
+    display: flex;
+  font-size: 18px;
+  margin-top: 0;
+}
+.entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top: 0;
+}
+
+.entry form {
+  display: flex;
+  width: 30%;
+  border-radius: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  background: white;
+    margin-top: 0;
+}
+
+.entry input {
+    display: flex;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  font-size: 16px;
+    width: 75%;
+}
+
+.entry button {
+    display: flex;
+  padding: 10px 20px;
+  background: aqua;
+  color: white;
+  border-radius: 0 30px 30px 0;
+  cursor: pointer;
+  border: none;
+  transition: background 0.2s;
+    width: 25%;
+}
+
+.entry button:hover {
+    background: aqua;
+    display: flex;
+}
+.centre.entry{
+    gap: 0;
+}
+.centre h2{
+    font-size: medium;
+}
+.centre p{
+    font-size: larger;
+}
+h3{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.entry .centre {
+    display: flex;
+    position: absolute;
+    gap: 0px;
+    margin: 10px;
+}
